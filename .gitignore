@@ -28,10 +28,10 @@ xcuserdata/
 ### Xcode Patch ###
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-!*.xcworkspace/xcshareddata/
-/*.gcno
+*.xcodeproj/xcshareddata/
+*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcshareddata/
+*.gcno
 
 ## Custom
 csarchive.py
