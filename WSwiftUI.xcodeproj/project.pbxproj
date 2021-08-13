@@ -11,6 +11,7 @@
 		3CC7A0B92601E8B800CFA9D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */; };
 		3CC7A0BB2601E8BA00CFA9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */; };
 		3CC7A0BE2601E8BA00CFA9D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7A0BD2601E8BA00CFA9D2 /* Preview Assets.xcassets */; };
+		6B63DB2D26C6460A001715F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63DB2C26C6460A001715F4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC7A0BD2601E8BA00CFA9D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CC7A0BF2601E8BA00CFA9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B63DB2C26C6460A001715F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				3CC7A0B62601E8B800CFA9D2 /* WSwiftUIApp.swift */,
+				6B63DB2C26C6460A001715F4 /* AppDelegate.swift */,
 				3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */,
 				3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */,
 				3CC7A0BF2601E8BA00CFA9D2 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B63DB2D26C6460A001715F4 /* AppDelegate.swift in Sources */,
 				3CC7A0B92601E8B800CFA9D2 /* ContentView.swift in Sources */,
 				3CC7A0B72601E8B800CFA9D2 /* WSwiftUIApp.swift in Sources */,
 			);
