@@ -54,11 +54,9 @@
 		3CC7A0B52601E8B800CFA9D2 /* WSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3CC7A0B62601E8B800CFA9D2 /* WSwiftUIApp.swift */,
-				6B63DB2C26C6460A001715F4 /* AppDelegate.swift */,
-				3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */,
-				3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */,
-				3CC7A0BF2601E8BA00CFA9D2 /* Info.plist */,
+				6B65032B26CB6BBB005E8C77 /* App */,
+				6B65032A26CB6BB9005E8C77 /* Views */,
+				6B65032926CB6BB6005E8C77 /* Model */,
 				3CC7A0BC2601E8BA00CFA9D2 /* Preview Content */,
 			);
 			path = WSwiftUI;
@@ -70,6 +68,32 @@
 				3CC7A0BD2601E8BA00CFA9D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B65032926CB6BB6005E8C77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B65032A26CB6BB9005E8C77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B65032B26CB6BBB005E8C77 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */,
+				3CC7A0BF2601E8BA00CFA9D2 /* Info.plist */,
+				3CC7A0B62601E8B800CFA9D2 /* WSwiftUIApp.swift */,
+				6B63DB2C26C6460A001715F4 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WSwiftUI/Info.plist;
+				INFOPLIST_FILE = WSwiftUI/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WSwiftUI/Info.plist;
+				INFOPLIST_FILE = WSwiftUI/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

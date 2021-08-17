@@ -20,12 +20,10 @@ struct WSwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            
             ContentView()
                 .onOpenURL(perform: { url in
-                print("Incoming url: \(url)")
-            })
-            
+                    print("Incoming url: \(url)")
+                })
         }
         .onChange(of: scenePhase) { (newScenePhase) in
             switch newScenePhase {
