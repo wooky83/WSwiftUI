@@ -8,19 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		3CC7A0B72601E8B800CFA9D2 /* WSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7A0B62601E8B800CFA9D2 /* WSwiftUIApp.swift */; };
-		3CC7A0B92601E8B800CFA9D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */; };
+		3CC7A0B92601E8B800CFA9D2 /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7A0B82601E8B800CFA9D2 /* DetailContentView.swift */; };
 		3CC7A0BB2601E8BA00CFA9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */; };
 		3CC7A0BE2601E8BA00CFA9D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7A0BD2601E8BA00CFA9D2 /* Preview Assets.xcassets */; };
+		6B5C554D26CF87630069B1DF /* MeowMix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C554C26CF87630069B1DF /* MeowMix.swift */; };
+		6B5C554F26CF87730069B1DF /* MeowMixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C554E26CF87730069B1DF /* MeowMixHeader.swift */; };
+		6B5C555126CF923A0069B1DF /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555026CF923A0069B1DF /* Artwork.swift */; };
+		6B5C555326CF924C0069B1DF /* LocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555226CF924C0069B1DF /* LocationMap.swift */; };
+		6B5C555526CF92560069B1DF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555426CF92560069B1DF /* DetailView.swift */; };
+		6B5C555726CF92800069B1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555626CF92800069B1DF /* ContentView.swift */; };
+		6B5C555926CF963C0069B1DF /* MeoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555826CF963C0069B1DF /* MeoContentView.swift */; };
+		6B5C555C26CFA0820069B1DF /* EmoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C555B26CFA0820069B1DF /* EmoContentView.swift */; };
 		6B63DB2D26C6460A001715F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63DB2C26C6460A001715F4 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CC7A0B32601E8B800CFA9D2 /* WSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC7A0B62601E8B800CFA9D2 /* WSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSwiftUIApp.swift; sourceTree = "<group>"; };
-		3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CC7A0B82601E8B800CFA9D2 /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
 		3CC7A0BA2601E8BA00CFA9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC7A0BD2601E8BA00CFA9D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CC7A0BF2601E8BA00CFA9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5C554C26CF87630069B1DF /* MeowMix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeowMix.swift; sourceTree = "<group>"; };
+		6B5C554E26CF87730069B1DF /* MeowMixHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeowMixHeader.swift; sourceTree = "<group>"; };
+		6B5C555026CF923A0069B1DF /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		6B5C555226CF924C0069B1DF /* LocationMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMap.swift; sourceTree = "<group>"; };
+		6B5C555426CF92560069B1DF /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6B5C555626CF92800069B1DF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B5C555826CF963C0069B1DF /* MeoContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeoContentView.swift; sourceTree = "<group>"; };
+		6B5C555B26CFA0820069B1DF /* EmoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoContentView.swift; sourceTree = "<group>"; };
 		6B63DB2C26C6460A001715F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +86,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6B5C555A26CFA0640069B1DF /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C554E26CF87730069B1DF /* MeowMixHeader.swift */,
+				6B5C555426CF92560069B1DF /* DetailView.swift */,
+				6B5C555226CF924C0069B1DF /* LocationMap.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		6B65032926CB6BB6005E8C77 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6B5C555026CF923A0069B1DF /* Artwork.swift */,
+				6B5C554C26CF87630069B1DF /* MeowMix.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -80,7 +108,11 @@
 		6B65032A26CB6BB9005E8C77 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3CC7A0B82601E8B800CFA9D2 /* ContentView.swift */,
+				6B5C555A26CFA0640069B1DF /* SubViews */,
+				6B5C555626CF92800069B1DF /* ContentView.swift */,
+				3CC7A0B82601E8B800CFA9D2 /* DetailContentView.swift */,
+				6B5C555826CF963C0069B1DF /* MeoContentView.swift */,
+				6B5C555B26CFA0820069B1DF /* EmoContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,8 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5C554D26CF87630069B1DF /* MeowMix.swift in Sources */,
+				6B5C555926CF963C0069B1DF /* MeoContentView.swift in Sources */,
+				6B5C555526CF92560069B1DF /* DetailView.swift in Sources */,
+				6B5C554F26CF87730069B1DF /* MeowMixHeader.swift in Sources */,
+				6B5C555126CF923A0069B1DF /* Artwork.swift in Sources */,
+				6B5C555326CF924C0069B1DF /* LocationMap.swift in Sources */,
 				6B63DB2D26C6460A001715F4 /* AppDelegate.swift in Sources */,
-				3CC7A0B92601E8B800CFA9D2 /* ContentView.swift in Sources */,
+				3CC7A0B92601E8B800CFA9D2 /* DetailContentView.swift in Sources */,
+				6B5C555726CF92800069B1DF /* ContentView.swift in Sources */,
+				6B5C555C26CFA0820069B1DF /* EmoContentView.swift in Sources */,
 				3CC7A0B72601E8B800CFA9D2 /* WSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
